@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[FAIL : expected [Sudden Sauce] but found [Sudden Death Sauce]: ACTUAL : Sudden Death Sauce 	EXPECTED :Sudden Sauce]]>
+    </line>
+  </reporter-output>
+  <suite name="CompanySetup" duration-ms="0" started-at="2016-05-11T06:28:56Z" finished-at="2016-05-11T06:28:56Z">
+    <groups>
+    </groups>
+  </suite> <!-- CompanySetup -->
+  <suite name="smoke" duration-ms="11650" started-at="2016-05-11T06:28:45Z" finished-at="2016-05-11T06:28:56Z">
+    <groups>
+    </groups>
+    <test name="testScenario1" duration-ms="11650" started-at="2016-05-11T06:28:45Z" finished-at="2016-05-11T06:28:56Z">
+      <class name="com.glukoo.testscript.SampleTestScript">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.glukoo.testscript.SampleTestScript@4a5821d0]" name="preSetup" is-config="true" duration-ms="20" started-at="2016-05-11T11:58:45Z" finished-at="2016-05-11T11:58:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method status="PASS" signature="testScenario1()[pri:0, instance:com.glukoo.testscript.SampleTestScript@4a5821d0]" name="testScenario1" duration-ms="11642" started-at="2016-05-11T11:58:45Z" finished-at="2016-05-11T11:58:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[FAIL : expected [Sudden Sauce] but found [Sudden Death Sauce]: ACTUAL : Sudden Death Sauce 	EXPECTED :Sudden Sauce]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testScenario1 -->
+        <test-method status="PASS" signature="testScenario2()[pri:0, instance:com.glukoo.testscript.SampleTestScript@4a5821d0]" name="testScenario2" duration-ms="1" started-at="2016-05-11T11:58:56Z" finished-at="2016-05-11T11:58:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario2 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.glukoo.testscript.SampleTestScript@4a5821d0]" name="teardown" is-config="true" duration-ms="0" started-at="2016-05-11T11:58:56Z" finished-at="2016-05-11T11:58:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.glukoo.testscript.SampleTestScript -->
+    </test> <!-- testScenario1 -->
+  </suite> <!-- smoke -->
+</testng-results>

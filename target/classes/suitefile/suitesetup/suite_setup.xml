@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Sample Suite File -->
+
+<suite name="smoke">
+
+
+	<test name="testScenario1">
+		<classes>
+			<class
+				name="com.glukoo.testscript.SampleTestScript" />
+		</classes>
+	</test>
+
+</suite>
+
